@@ -50,6 +50,7 @@ public class UsersListAdapter extends BaseAdapter {
         date_of_birth.setText(list.get(position).getDate_of_birth());
         gender.setText(list.get(position).getGender());
         email.setText(list.get(position).getEmail());
+		
         return layout;
     }
 }
